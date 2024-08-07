@@ -1,0 +1,2 @@
+"This file will be created automatically when keylogger.py is run."
+"It shows the keystrokes you have typed on the keyboard."

@@ -1,0 +1,27 @@
+"This file will be created automatically when keylogger.py is run."
+"It shows logs like the following one."
+2024-07-29 08:13:13,963 - INFO - Keylogger started.
+
+2022-07-29:
+
+This represents the date.
+2024: The year.
+07: The month (July).
+29: The day of the month.
+
+08:13:13,963:
+
+This represents the time.
+08: The hour (8 AM in a 24-hour clock format).
+13: The minute (13 minutes past the hour).
+13: The second (13 seconds past the minute).
+,963: The milliseconds (963 milliseconds past the second).
+
+- INFO -:
+
+This indicates the log level.
+INFO: The log level used here is "INFO," which typically signifies informational messages that highlight the progress of the application at a coarse-grained level.
+Keylogger started.:
+
+This is the log message.
+It indicates that the keylogger has been started.
