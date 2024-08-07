@@ -10,9 +10,10 @@ This Python-based keylogger captures and logs keystrokes from the keyboard. It u
 - **File Management**: Automatically rotates log files when they exceed a specified size (5 MB in this case).
 - **Logging**: Detailed logs of key events and system activities.
 
-## Dependencies
+## Requirements
 
-- Python 3.11
+- Pycharm
+- Python 3.10.0
 - `pynput` library
 
 You can install the required library using pip:
@@ -25,7 +26,7 @@ You can install the required library using pip:
 
 To start the keylogger, execute the script from the command line:
 
-__python keylogger.py__
+`python keylogger.py`
 
 2.	**Log Files**
 
@@ -62,3 +63,7 @@ The keylogger will continue running until interrupted. You can stop it using Ctr
 •	**Ethical Use**: This keylogger is for educational purposes only. Ensure you have explicit permission before using it on any system.
 
 •	**Security**: Be cautious when handling sensitive information. The keylogger logs all keystrokes, which may include personal or confidential data.
+
+## Note
+
+"Don’t forget to add the Python path to your environment variables."
