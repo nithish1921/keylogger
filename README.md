@@ -17,48 +17,32 @@ This Python-based keylogger captures and logs keystrokes from the keyboard. It u
 
 You can install the required library using pip:
 
-```bash
 pip install pynput
 
-##Usage
-
-1.Run the Keylogger
-
+Usage
+1.	Run the Keylogger
 To start the keylogger, execute the script from the command line:
-
 python keylogger.py
 
-2.Log Files
-
+2.	Log Files
 Keyfile.txt: The primary log file where keystrokes are recorded.
+Keyfile.log: These log messages provide information about the status and actions of a keylogger program at a specific time.
 
-Keyfile.log: Rotated log files with timestamps, created when the primary log file.
-
-3.Stopping the Keylogger
-
+3.	Stopping the Keylogger
 The keylogger will continue running until interrupted. You can stop it using Ctrl + C in the terminal. The keylogger will log this event and exit gracefully.
 
-##Code Breakdown
-Logging Configuration: Configures logging to Keyfile.log with a debug level and specified format.
+Code Breakdown
+•	Logging Configuration: Configures logging to Keyfile.log with a debug level and specified format.
+•	Key Press Handling: Logs each key press and handles special keys.
+•	File Management: Checks the size of Keyfile.txt and rotates the file if necessary.
+•	Listener Setup: Initializes the key listener and starts capturing keystrokes.
 
-Key Press Handling: Logs each key press and handles special keys.
+Example Log
+2022-07-29 11:13:13,963 - INFO - Keylogger started.
+2022-07-29 11:13:14,123 - INFO - Logged character: a
+2022-07-29 11:13:15,456 - INFO - Logged special key: [Key.shift]
+2022-07-29 11:13:16,789 - INFO - Log file rotated: Keyfile_20240729081316.txt
 
-File Management: Checks the size of Keyfile.txt and rotates the file if necessary.
-
-Listener Setup: Initializes the key listener and starts capturing keystrokes.
-
-##Example Log
-
-2022-07-29 08:13:13,963 - INFO - Keylogger started.
-
-2022-07-29 08:13:14,123 - INFO - Logged character: a
-
-2022-07-29 08:13:15,456 - INFO - Logged special key: [Key.shift]
-
-2022-07-29 08:13:16,789 - INFO - Log file rotated: Keyfile_20240729081316.txt
-
-##Important Notes
-
-Ethical Use: This keylogger is for educational purposes only. Ensure you have explicit permission before using it on any system.
-
-Security: Be cautious when handling sensitive information. The keylogger logs all keystrokes, which may include personal or confidential data.
+Important Notes
+•	Ethical Use: This keylogger is for educational purposes only. Ensure you have explicit permission before using it on any system.
+•	Security: Be cautious when handling sensitive information. The keylogger logs all keystrokes, which may include personal or confidential data.
