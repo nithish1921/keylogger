@@ -24,19 +24,19 @@ You can install the required library using pip:
 
 **1. Run the Keylogger**
 
-     To start the keylogger, execute the script from the command line:
+- To start the keylogger, execute the script from the command line:
 
-     `python keylogger.py`
+- `python keylogger.py`
 
 **2. Log Files**
 
-     Keyfile.txt: The primary log file where keystrokes are recorded.
+- Keyfile.txt: The primary log file where keystrokes are recorded.
 
-     Keyfile.log: These log messages provide information about the status and actions of a keylogger program at a specific time.
+- Keyfile.log: These log messages provide information about the status and actions of a keylogger program at a specific time.
 
 **3. Stopping the Keylogger**
 
-     The keylogger will continue running until interrupted. You can stop it using Ctrl + C in the terminal or by stop the program. The keylogger will log this event and exit gracefully.
+- The keylogger will continue running until interrupted. You can stop it using Ctrl + C in the terminal or by stop the program. The keylogger will log this event and exit gracefully.
 
 ## Code Breakdown
 
