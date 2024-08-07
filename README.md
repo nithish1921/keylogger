@@ -19,35 +19,35 @@ You can install the required library using pip:
 
 `pip install pynput`
 
-Usage
+## Usage
 
-1.	Run the Keylogger
+1.	**Run the Keylogger**
 
 To start the keylogger, execute the script from the command line:
 
-python keylogger.py
+__python keylogger.py__
 
-2.	Log Files
+2.	**Log Files**
 
 Keyfile.txt: The primary log file where keystrokes are recorded.
 
 Keyfile.log: These log messages provide information about the status and actions of a keylogger program at a specific time.
 
-3.	Stopping the Keylogger
+3.	**Stopping the Keylogger**
 
 The keylogger will continue running until interrupted. You can stop it using Ctrl + C in the terminal. The keylogger will log this event and exit gracefully.
 
-Code Breakdown
+## Code Breakdown
 
-•	Logging Configuration: Configures logging to Keyfile.log with a debug level and specified format.
+•	**Logging Configuration**: Configures logging to Keyfile.log with a debug level and specified format.
 
-•	Key Press Handling: Logs each key press and handles special keys.
+•	**Key Press Handling**: Logs each key press and handles special keys.
 
-•	File Management: Checks the size of Keyfile.txt and rotates the file if necessary.
+•	**File Management**: Checks the size of Keyfile.txt and rotates the file if necessary.
 
-•	Listener Setup: Initializes the key listener and starts capturing keystrokes.
+•	**Listener Setup**: Initializes the key listener and starts capturing keystrokes.
 
-Example Log
+## Example Log
 
 2022-07-29 11:13:13,963 - INFO - Keylogger started.
 
@@ -57,8 +57,8 @@ Example Log
 
 2022-07-29 11:13:16,789 - INFO - Log file rotated: Keyfile_20240729081316.txt
 
-Important Notes
+## Important Notes
 
-•	Ethical Use: This keylogger is for educational purposes only. Ensure you have explicit permission before using it on any system.
+•	**Ethical Use**: This keylogger is for educational purposes only. Ensure you have explicit permission before using it on any system.
 
-•	Security: Be cautious when handling sensitive information. The keylogger logs all keystrokes, which may include personal or confidential data.
+•	**Security**: Be cautious when handling sensitive information. The keylogger logs all keystrokes, which may include personal or confidential data.
