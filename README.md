@@ -50,13 +50,13 @@ You can install the required library using pip:
 
 ## Example Log
 
-2022-07-29 11:13:13,963 - INFO - Keylogger started.
+2023-07-29 11:13:13,963 - INFO - Keylogger started.
 
-2022-07-29 11:13:14,123 - INFO - Logged character: a
+2023-07-29 11:13:14,123 - INFO - Logged character: a
 
-2022-07-29 11:13:15,456 - INFO - Logged special key: [Key.shift]
+2023-07-29 11:13:15,456 - INFO - Logged special key: [Key.shift]
 
-2022-07-29 11:13:16,789 - INFO - Log file rotated: Keyfile_20240729081316.txt
+2023-07-29 11:13:16,789 - INFO - Log file rotated: Keyfile_20240729081316.txt
 
 ## Important Notes
 
